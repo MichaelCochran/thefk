@@ -232,7 +232,7 @@ class CorrectedCommand(object):
         """Returns fixed commands script.
 
         If `settings.repeat` is `True`, appends command with second attempt
-        of running fuck in case fixed command fails again.
+        of running oops in case fixed command fails again.
 
         """
         if settings.repeat:

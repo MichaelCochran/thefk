@@ -70,7 +70,7 @@ def select_command(corrected_commands):
     try:
         selector = CommandSelector(corrected_commands)
     except NoRuleMatched:
-        logs.failed('No fucks given' if get_alias() == 'fuck'
+        logs.failed('No oops given' if get_alias() == 'oops'
                     else 'Nothing found')
         return
 
